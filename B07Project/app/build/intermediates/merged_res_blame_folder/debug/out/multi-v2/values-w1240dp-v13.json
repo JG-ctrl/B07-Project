@@ -4,13 +4,13 @@
             "outputFile": "com.example.b07project.app-mergeDebugResources-32:/values-w1240dp-v13/values-w1240dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/res/values-w1240dp/dimens.xml",
+                    "source": "C:\\Users\\danny\\OneDrive\\Documents\\GitHub\\Not mine\\B07-Project\\B07Project\\app\\src\\main\\res\\values-w1240dp\\dimens.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "16",
+                        "startOffsets": "17",
                         "endColumns": "42",
-                        "endOffsets": "54"
+                        "endOffsets": "55"
                     },
                     "to": {
                         "startLines": "2",

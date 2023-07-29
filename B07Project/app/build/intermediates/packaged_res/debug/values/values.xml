@@ -13,9 +13,10 @@
     <string name="google_app_id" translatable="false">1:246445245937:android:5a993b3018baf7eeb83050</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDg2bSQ3yaDkLKqbUr2XOVAgYoKg-c4nYU</string>
     <string name="google_storage_bucket" translatable="false">b07-project-3237a.appspot.com</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="project_id" translatable="false">b07-project-3237a</string>
     <string name="shopper_cart">this is the shopper\'s cart</string>
-    <string name="shopper_home">this is the shopper\'s home page</string>
+    <string name="shopper_home">this is the shopper\'s home test</string>
     <string name="shopper_search">this is the shopper\'s search page</string>
     <style name="Base.Theme.B07Project" parent="Theme.Material3.DayNight.NoActionBar">
         

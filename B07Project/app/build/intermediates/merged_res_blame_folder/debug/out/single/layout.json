@@ -1,27 +1,47 @@
 [
     {
-        "merged": "com.example.b07project.app-mergeDebugResources-33:/layout/fragment_shopper_cart.xml",
-        "source": "com.example.b07project.app-main-36:/layout/fragment_shopper_cart.xml"
+        "merged": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-mergeDebugResources-33:\\layout\\fragment_owner_home.xml",
+        "source": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\fragment_owner_home.xml"
     },
     {
-        "merged": "com.example.b07project.app-mergeDebugResources-33:/layout/activity_account_type.xml",
-        "source": "com.example.b07project.app-main-36:/layout/activity_account_type.xml"
+        "merged": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-mergeDebugResources-33:\\layout\\fragment_shopper_home.xml",
+        "source": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\fragment_shopper_home.xml"
     },
     {
-        "merged": "com.example.b07project.app-mergeDebugResources-33:/layout/activity_login_page.xml",
-        "source": "com.example.b07project.app-main-36:/layout/activity_login_page.xml"
+        "merged": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-mergeDebugResources-33:\\layout\\fragment_owner_store.xml",
+        "source": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\fragment_owner_store.xml"
     },
     {
-        "merged": "com.example.b07project.app-mergeDebugResources-33:/layout/fragment_shopper_home.xml",
-        "source": "com.example.b07project.app-main-36:/layout/fragment_shopper_home.xml"
+        "merged": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-mergeDebugResources-33:\\layout\\fragment_owner_account.xml",
+        "source": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\fragment_owner_account.xml"
     },
     {
-        "merged": "com.example.b07project.app-mergeDebugResources-33:/layout/activity_shopper_view1.xml",
-        "source": "com.example.b07project.app-main-36:/layout/activity_shopper_view1.xml"
+        "merged": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-mergeDebugResources-33:\\layout\\activity_account_type.xml",
+        "source": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\activity_account_type.xml"
     },
     {
-        "merged": "com.example.b07project.app-mergeDebugResources-33:/layout/fragment_shopper_search.xml",
-        "source": "com.example.b07project.app-main-36:/layout/fragment_shopper_search.xml"
+        "merged": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-mergeDebugResources-33:\\layout\\fragment_shopper_cart.xml",
+        "source": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\fragment_shopper_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-mergeDebugResources-33:\\layout\\fragment_owner_orders.xml",
+        "source": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\fragment_owner_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-mergeDebugResources-33:\\layout\\activity_owner_view1.xml",
+        "source": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\activity_owner_view1.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-mergeDebugResources-33:\\layout\\activity_login_page.xml",
+        "source": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\activity_login_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-mergeDebugResources-33:\\layout\\fragment_shopper_search.xml",
+        "source": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\fragment_shopper_search.xml"
+    },
+    {
+        "merged": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-mergeDebugResources-33:\\layout\\activity_shopper_view1.xml",
+        "source": "C:\\Users\\danny\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\activity_shopper_view1.xml"
     },
     {
         "merged": "com.example.b07project.app-mergeDebugResources-33:/layout/activity_owner_view1.xml",

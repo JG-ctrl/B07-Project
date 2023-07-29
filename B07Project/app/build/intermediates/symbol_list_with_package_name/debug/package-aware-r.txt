@@ -2921,6 +2921,9 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable baseline_person_24
+drawable baseline_receipt_24
+drawable baseline_store_24
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3142,6 +3145,7 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottomNavigationView
 id bottomNavigationView2
 id bounce
 id bounceBoth
@@ -3281,6 +3285,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView7
 id immediateStop
 id included
 id indeterminate
@@ -3388,6 +3393,11 @@ id onInterceptTouchReturnSwipe
 id outline
 id outward
 id overshoot
+id ownerView
+id owner_account
+id owner_home
+id owner_orders
+id owner_shop
 id packed
 id parallax
 id parent
@@ -3487,6 +3497,7 @@ id startVertical
 id staticLayout
 id staticPostLayout
 id stop
+id storeName
 id stretch
 id submenuarrow
 id submit_area
@@ -3513,13 +3524,13 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView2
+id textView3
 id textViewErrorMsg
 id textViewPassword
 id textViewPasswordSignup
 id textViewUsername
 id textViewUsernameSignup
 id textViewWelcomeMsg
-id textViewWelcomeTestOwner
 id textWatcher
 id text_input_end_icon
 id text_input_error_icon
@@ -3704,6 +3715,10 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_owner_account
+layout fragment_owner_home
+layout fragment_owner_orders
+layout fragment_owner_store
 layout fragment_shopper_cart
 layout fragment_shopper_home
 layout fragment_shopper_search
@@ -3768,6 +3783,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu bottom_nav_bar_owner
 menu bottom_nav_bar_shopper
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -3843,6 +3859,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
