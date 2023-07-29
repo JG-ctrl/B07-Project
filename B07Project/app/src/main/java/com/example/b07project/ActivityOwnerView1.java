@@ -9,13 +9,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.example.b07project.databinding.ActivityOwnerView1Binding;
 import com.example.b07project.databinding.ActivityShopperView1Binding;
 
 public class ActivityOwnerView1 extends AppCompatActivity {
 
     static String username; //will be passed from previous activity
-    ActivityOwnerView1Binding binding;
+    ActivityShopperView1Binding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,27 +23,23 @@ public class ActivityOwnerView1 extends AppCompatActivity {
         Intent receiverIntent = getIntent(); //These lines receive the string from previous activity
         username = receiverIntent.getStringExtra("KEY_USERNAME"); //AND update username to match
 
-//        TextView msgWelcome = (TextView) findViewById(R.id.textViewWelcomeTestOwner); //THIS LINE IS PURELY FOR TESTING
-//        msgWelcome.setText("Welcome " + username + "!");                              //FEEL FREE TO REMOVE LATER ! :-)
+        TextView msgWelcome = (TextView) findViewById(R.id.textViewWelcomeTestOwner); //THIS LINE IS PURELY FOR TESTING
+        msgWelcome.setText("Welcome " + username + "!");                              //FEEL FREE TO REMOVE LATER ! :-)
 
-        binding = ActivityOwnerView1Binding.inflate(getLayoutInflater());
+        binding = ActivityShopperView1Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        replaceFragment(new OwnerHomeFragment());
-        binding.bottomNavigationView.setBackground(null);
+        replaceFragment(new FragmentShopperHome());
+        binding.bottomNavigationView2.setBackground(null);
 
-        binding.bottomNavigationView.setOnItemSelectedListener(item -> {
+        binding.bottomNavigationView2.setOnItemSelectedListener(item -> {
 
-            if (item.getItemId() == R.id.owner_home)
-                replaceFragment(new OwnerHomeFragment());
-            else if (item.getItemId() == R.id.owner_shop)
-                replaceFragment(new OwnerStoreFragment());
-            else if (item.getItemId() == R.id.owner_orders)
-                replaceFragment(new OwnerOrdersFragment());
-            else if (item.getItemId() == R.id.owner_account)
-                replaceFragment(new OwnerAccountFragment());
+            if (item.getItemId() == R.id.home)
+                replaceFragment(new FragmentShopperHome());
+            else if (item.getItemId() == R.id.search)
+                replaceFragment(new FragmentShopperSearch());
             else
-                replaceFragment(new OwnerHomeFragment());
+                replaceFragment(new FragmentShopperCart());
 
             return true;
         });
@@ -53,7 +48,7 @@ public class ActivityOwnerView1 extends AppCompatActivity {
     private void replaceFragment(Fragment fragment) {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.replace(R.id.ownerView, fragment);
+        fragmentTransaction.replace(R.id.frame_layout, fragment);
         fragmentTransaction.commit();
 
     }

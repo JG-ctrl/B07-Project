@@ -1,10 +1,10 @@
-#Sat Jul 29 14:02:15 EDT 2023
-base.0=C\:\\Users\\danny\\OneDrive\\Documents\\GitHub\\Not mine\\B07-Project\\B07Project\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\danny\\OneDrive\\Documents\\GitHub\\Not mine\\B07-Project\\B07Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\danny\\OneDrive\\Documents\\GitHub\\Not mine\\B07-Project\\B07Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
-base.3=C\:\\Users\\danny\\OneDrive\\Documents\\GitHub\\Not mine\\B07-Project\\B07Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\8\\classes.dex
-base.4=C\:\\Users\\danny\\OneDrive\\Documents\\GitHub\\Not mine\\B07-Project\\B07Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\9\\classes.dex
-base.5=C\:\\Users\\danny\\OneDrive\\Documents\\GitHub\\Not mine\\B07-Project\\B07Project\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Fri Jul 28 01:07:22 EDT 2023
+base.0=/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/build/intermediates/dex/debug/mergeProjectDexDebug/11/classes.dex
+base.3=/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/build/intermediates/dex/debug/mergeProjectDexDebug/8/classes.dex
+base.4=/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
+base.5=/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=11/classes.dex

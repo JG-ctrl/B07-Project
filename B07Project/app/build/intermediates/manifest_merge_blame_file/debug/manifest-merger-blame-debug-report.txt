@@ -6,158 +6,158 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml
+8-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml
+9-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:4:5-66
-11-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:4:22-64
+11-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:4:5-66
+11-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:4:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:5:5-78
-12-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:5:22-76
+12-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:5:5-78
+12-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:5:22-76
 13
 14    <permission
-14-->[androidx.core:core:1.9.0] C:\Users\danny\.gradle\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+14-->[androidx.core:core:1.9.0] /Users/alysa/.gradle/caches/transforms-3/57c95f7bce2a4c36ea305cb3932f8371/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
 15        android:name="com.example.b07project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-15-->[androidx.core:core:1.9.0] C:\Users\danny\.gradle\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+15-->[androidx.core:core:1.9.0] /Users/alysa/.gradle/caches/transforms-3/57c95f7bce2a4c36ea305cb3932f8371/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
 16        android:protectionLevel="signature" />
-16-->[androidx.core:core:1.9.0] C:\Users\danny\.gradle\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+16-->[androidx.core:core:1.9.0] /Users/alysa/.gradle/caches/transforms-3/57c95f7bce2a4c36ea305cb3932f8371/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
 17
 18    <uses-permission android:name="com.example.b07project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-18-->[androidx.core:core:1.9.0] C:\Users\danny\.gradle\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-18-->[androidx.core:core:1.9.0] C:\Users\danny\.gradle\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+18-->[androidx.core:core:1.9.0] /Users/alysa/.gradle/caches/transforms-3/57c95f7bce2a4c36ea305cb3932f8371/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] /Users/alysa/.gradle/caches/transforms-3/57c95f7bce2a4c36ea305cb3932f8371/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:7:5-38:19
+20-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:7:5-38:19
 21        android:allowBackup="true"
-21-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:8:9-35
+21-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:8:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.9.0] C:\Users\danny\.gradle\caches\transforms-3\57c95f7bce2a4c36ea305cb3932f8371\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+22-->[androidx.core:core:1.9.0] /Users/alysa/.gradle/caches/transforms-3/57c95f7bce2a4c36ea305cb3932f8371/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 23        android:dataExtractionRules="@xml/data_extraction_rules"
-23-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:9:9-65
+23-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:9:9-65
 24        android:debuggable="true"
 25        android:extractNativeLibs="false"
 26        android:fullBackupContent="@xml/backup_rules"
-26-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:10:9-54
+26-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:10:9-54
 27        android:icon="@mipmap/ic_launcher"
-27-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:11:9-43
+27-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:11:9-43
 28        android:label="@string/app_name"
-28-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:12:9-41
+28-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:12:9-41
 29        android:roundIcon="@mipmap/ic_launcher_round"
-29-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:13:9-54
+29-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:13:9-54
 30        android:supportsRtl="true"
-30-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:14:9-35
+30-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:14:9-35
 31        android:testOnly="true"
 32        android:theme="@style/Theme.B07Project" >
-32-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:15:9-48
+32-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:15:9-48
 33        <activity
-33-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:17:9-19:40
+33-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:17:9-19:40
 34            android:name="com.example.b07project.ActivityOwnerView1"
-34-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:18:13-47
+34-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:18:13-47
 35            android:exported="false" />
-35-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:19:13-37
+35-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:19:13-37
 36        <activity
-36-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:20:9-22:40
+36-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:20:9-22:40
 37            android:name="com.example.b07project.ActivityShopperView1"
-37-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:21:13-49
+37-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:21:13-49
 38            android:exported="false" />
-38-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:22:13-37
+38-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:22:13-37
 39        <activity
-39-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:23:9-25:40
+39-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:23:9-25:40
 40            android:name="com.example.b07project.ActivityOwnerSignup"
-40-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:24:13-48
+40-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:24:13-48
 41            android:exported="false" />
-41-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:25:13-37
+41-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:25:13-37
 42        <activity
-42-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:26:9-28:40
+42-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:26:9-28:40
 43            android:name="com.example.b07project.ActivityAccountType"
-43-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:27:13-48
+43-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:27:13-48
 44            android:exported="false" />
-44-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:28:13-37
+44-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:28:13-37
 45        <activity
-45-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:29:9-37:20
+45-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:29:9-37:20
 46            android:name="com.example.b07project.ActivityLoginPage"
-46-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:30:13-46
+46-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:30:13-46
 47            android:exported="true" >
-47-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:31:13-36
+47-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:31:13-36
 48            <intent-filter>
-48-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:32:13-36:29
+48-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:32:13-36:29
 49                <action android:name="android.intent.action.MAIN" />
-49-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:33:17-69
-49-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:33:25-66
+49-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:33:17-69
+49-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:33:25-66
 50
 51                <category android:name="android.intent.category.LAUNCHER" />
-51-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:35:17-77
-51-->C:\Users\danny\OneDrive\Documents\GitHub\Not mine\B07-Project\B07Project\app\src\main\AndroidManifest.xml:35:27-74
+51-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:35:17-77
+51-->/Users/alysa/Documents/GitHub/B07-Project/B07Project/app/src/main/AndroidManifest.xml:35:27-74
 52            </intent-filter>
 53        </activity>
 54
 55        <service
-55-->[com.google.firebase:firebase-database:20.1.0] C:\Users\danny\.gradle\caches\transforms-3\cb1822309c51a0f744fd512e58602ad1\transformed\firebase-database-20.1.0\AndroidManifest.xml:28:9-34:19
+55-->[com.google.firebase:firebase-database:20.1.0] /Users/alysa/.gradle/caches/transforms-3/cb1822309c51a0f744fd512e58602ad1/transformed/firebase-database-20.1.0/AndroidManifest.xml:28:9-34:19
 56            android:name="com.google.firebase.components.ComponentDiscoveryService"
-56-->[com.google.firebase:firebase-database:20.1.0] C:\Users\danny\.gradle\caches\transforms-3\cb1822309c51a0f744fd512e58602ad1\transformed\firebase-database-20.1.0\AndroidManifest.xml:29:13-84
+56-->[com.google.firebase:firebase-database:20.1.0] /Users/alysa/.gradle/caches/transforms-3/cb1822309c51a0f744fd512e58602ad1/transformed/firebase-database-20.1.0/AndroidManifest.xml:29:13-84
 57            android:directBootAware="true"
-57-->[com.google.firebase:firebase-common:20.2.0] C:\Users\danny\.gradle\caches\transforms-3\a04a61fa20c3292f8c70c08012d83d43\transformed\firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+57-->[com.google.firebase:firebase-common:20.2.0] /Users/alysa/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:34:13-43
 58            android:exported="false" >
-58-->[com.google.firebase:firebase-database:20.1.0] C:\Users\danny\.gradle\caches\transforms-3\cb1822309c51a0f744fd512e58602ad1\transformed\firebase-database-20.1.0\AndroidManifest.xml:30:13-37
+58-->[com.google.firebase:firebase-database:20.1.0] /Users/alysa/.gradle/caches/transforms-3/cb1822309c51a0f744fd512e58602ad1/transformed/firebase-database-20.1.0/AndroidManifest.xml:30:13-37
 59            <meta-data
-59-->[com.google.firebase:firebase-database:20.1.0] C:\Users\danny\.gradle\caches\transforms-3\cb1822309c51a0f744fd512e58602ad1\transformed\firebase-database-20.1.0\AndroidManifest.xml:31:13-33:85
+59-->[com.google.firebase:firebase-database:20.1.0] /Users/alysa/.gradle/caches/transforms-3/cb1822309c51a0f744fd512e58602ad1/transformed/firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
 60                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-60-->[com.google.firebase:firebase-database:20.1.0] C:\Users\danny\.gradle\caches\transforms-3\cb1822309c51a0f744fd512e58602ad1\transformed\firebase-database-20.1.0\AndroidManifest.xml:32:17-109
+60-->[com.google.firebase:firebase-database:20.1.0] /Users/alysa/.gradle/caches/transforms-3/cb1822309c51a0f744fd512e58602ad1/transformed/firebase-database-20.1.0/AndroidManifest.xml:32:17-109
 61                android:value="com.google.firebase.components.ComponentRegistrar" />
-61-->[com.google.firebase:firebase-database:20.1.0] C:\Users\danny\.gradle\caches\transforms-3\cb1822309c51a0f744fd512e58602ad1\transformed\firebase-database-20.1.0\AndroidManifest.xml:33:17-82
+61-->[com.google.firebase:firebase-database:20.1.0] /Users/alysa/.gradle/caches/transforms-3/cb1822309c51a0f744fd512e58602ad1/transformed/firebase-database-20.1.0/AndroidManifest.xml:33:17-82
 62        </service>
 63
 64        <activity
-64-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\danny\.gradle\caches\transforms-3\7fa3c6045f0b287b53c04bc4f22591af\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+64-->[com.google.android.gms:play-services-base:18.0.1] /Users/alysa/.gradle/caches/transforms-3/7fa3c6045f0b287b53c04bc4f22591af/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
 65            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-65-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\danny\.gradle\caches\transforms-3\7fa3c6045f0b287b53c04bc4f22591af\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+65-->[com.google.android.gms:play-services-base:18.0.1] /Users/alysa/.gradle/caches/transforms-3/7fa3c6045f0b287b53c04bc4f22591af/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
 66            android:exported="false"
-66-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\danny\.gradle\caches\transforms-3\7fa3c6045f0b287b53c04bc4f22591af\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+66-->[com.google.android.gms:play-services-base:18.0.1] /Users/alysa/.gradle/caches/transforms-3/7fa3c6045f0b287b53c04bc4f22591af/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
 67            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-67-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\danny\.gradle\caches\transforms-3\7fa3c6045f0b287b53c04bc4f22591af\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+67-->[com.google.android.gms:play-services-base:18.0.1] /Users/alysa/.gradle/caches/transforms-3/7fa3c6045f0b287b53c04bc4f22591af/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
 68
 69        <provider
-69-->[com.google.firebase:firebase-common:20.2.0] C:\Users\danny\.gradle\caches\transforms-3\a04a61fa20c3292f8c70c08012d83d43\transformed\firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
+69-->[com.google.firebase:firebase-common:20.2.0] /Users/alysa/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:25:9-30:39
 70            android:name="com.google.firebase.provider.FirebaseInitProvider"
-70-->[com.google.firebase:firebase-common:20.2.0] C:\Users\danny\.gradle\caches\transforms-3\a04a61fa20c3292f8c70c08012d83d43\transformed\firebase-common-20.2.0\AndroidManifest.xml:26:13-77
+70-->[com.google.firebase:firebase-common:20.2.0] /Users/alysa/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:26:13-77
 71            android:authorities="com.example.b07project.firebaseinitprovider"
-71-->[com.google.firebase:firebase-common:20.2.0] C:\Users\danny\.gradle\caches\transforms-3\a04a61fa20c3292f8c70c08012d83d43\transformed\firebase-common-20.2.0\AndroidManifest.xml:27:13-72
+71-->[com.google.firebase:firebase-common:20.2.0] /Users/alysa/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:27:13-72
 72            android:directBootAware="true"
-72-->[com.google.firebase:firebase-common:20.2.0] C:\Users\danny\.gradle\caches\transforms-3\a04a61fa20c3292f8c70c08012d83d43\transformed\firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+72-->[com.google.firebase:firebase-common:20.2.0] /Users/alysa/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:28:13-43
 73            android:exported="false"
-73-->[com.google.firebase:firebase-common:20.2.0] C:\Users\danny\.gradle\caches\transforms-3\a04a61fa20c3292f8c70c08012d83d43\transformed\firebase-common-20.2.0\AndroidManifest.xml:29:13-37
+73-->[com.google.firebase:firebase-common:20.2.0] /Users/alysa/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:29:13-37
 74            android:initOrder="100" />
-74-->[com.google.firebase:firebase-common:20.2.0] C:\Users\danny\.gradle\caches\transforms-3\a04a61fa20c3292f8c70c08012d83d43\transformed\firebase-common-20.2.0\AndroidManifest.xml:30:13-36
+74-->[com.google.firebase:firebase-common:20.2.0] /Users/alysa/.gradle/caches/transforms-3/a04a61fa20c3292f8c70c08012d83d43/transformed/firebase-common-20.2.0/AndroidManifest.xml:30:13-36
 75
 76        <meta-data
-76-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\danny\.gradle\caches\transforms-3\49ce6122932f5285b401f570e61a56b9\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+76-->[com.google.android.gms:play-services-basement:18.1.0] /Users/alysa/.gradle/caches/transforms-3/49ce6122932f5285b401f570e61a56b9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
 77            android:name="com.google.android.gms.version"
-77-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\danny\.gradle\caches\transforms-3\49ce6122932f5285b401f570e61a56b9\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+77-->[com.google.android.gms:play-services-basement:18.1.0] /Users/alysa/.gradle/caches/transforms-3/49ce6122932f5285b401f570e61a56b9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
 78            android:value="@integer/google_play_services_version" />
-78-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\danny\.gradle\caches\transforms-3\49ce6122932f5285b401f570e61a56b9\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+78-->[com.google.android.gms:play-services-basement:18.1.0] /Users/alysa/.gradle/caches/transforms-3/49ce6122932f5285b401f570e61a56b9/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
 79
 80        <provider
-80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\danny\.gradle\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+80-->[androidx.emoji2:emoji2:1.2.0] /Users/alysa/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 81            android:name="androidx.startup.InitializationProvider"
-81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\danny\.gradle\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+81-->[androidx.emoji2:emoji2:1.2.0] /Users/alysa/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
 82            android:authorities="com.example.b07project.androidx-startup"
-82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\danny\.gradle\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+82-->[androidx.emoji2:emoji2:1.2.0] /Users/alysa/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
 83            android:exported="false" >
-83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\danny\.gradle\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+83-->[androidx.emoji2:emoji2:1.2.0] /Users/alysa/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
 84            <meta-data
-84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\danny\.gradle\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+84-->[androidx.emoji2:emoji2:1.2.0] /Users/alysa/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 85                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\danny\.gradle\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+85-->[androidx.emoji2:emoji2:1.2.0] /Users/alysa/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
 86                android:value="androidx.startup" />
-86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\danny\.gradle\caches\transforms-3\eb88012741a64135b462a95b61c1572e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+86-->[androidx.emoji2:emoji2:1.2.0] /Users/alysa/.gradle/caches/transforms-3/eb88012741a64135b462a95b61c1572e/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
 87            <meta-data
-87-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\danny\.gradle\caches\transforms-3\c7a191cd82385db201399497594f5497\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+87-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/alysa/.gradle/caches/transforms-3/c7a191cd82385db201399497594f5497/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
 88                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-88-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\danny\.gradle\caches\transforms-3\c7a191cd82385db201399497594f5497\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+88-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/alysa/.gradle/caches/transforms-3/c7a191cd82385db201399497594f5497/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
 89                android:value="androidx.startup" />
-89-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\danny\.gradle\caches\transforms-3\c7a191cd82385db201399497594f5497\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+89-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/alysa/.gradle/caches/transforms-3/c7a191cd82385db201399497594f5497/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
 90        </provider>
 91    </application>
 92
