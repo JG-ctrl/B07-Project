@@ -4,11 +4,11 @@ package com.example.b07project.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
-import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.b07project.R;
@@ -18,24 +18,24 @@ import java.lang.String;
 
 public final class FragmentOwnerHomeBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
-  public final ImageView imageView7;
+  public final TextView home;
 
   @NonNull
-  public final TextView textView3;
+  public final RecyclerView recyclerViewOwnerHome;
 
-  private FragmentOwnerHomeBinding(@NonNull FrameLayout rootView, @NonNull ImageView imageView7,
-      @NonNull TextView textView3) {
+  private FragmentOwnerHomeBinding(@NonNull RelativeLayout rootView, @NonNull TextView home,
+      @NonNull RecyclerView recyclerViewOwnerHome) {
     this.rootView = rootView;
-    this.imageView7 = imageView7;
-    this.textView3 = textView3;
+    this.home = home;
+    this.recyclerViewOwnerHome = recyclerViewOwnerHome;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -60,19 +60,19 @@ public final class FragmentOwnerHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.imageView7;
-      ImageView imageView7 = ViewBindings.findChildViewById(rootView, id);
-      if (imageView7 == null) {
+      id = R.id.home;
+      TextView home = ViewBindings.findChildViewById(rootView, id);
+      if (home == null) {
         break missingId;
       }
 
-      id = R.id.textView3;
-      TextView textView3 = ViewBindings.findChildViewById(rootView, id);
-      if (textView3 == null) {
+      id = R.id.recycler_view_owner_home;
+      RecyclerView recyclerViewOwnerHome = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerViewOwnerHome == null) {
         break missingId;
       }
 
-      return new FragmentOwnerHomeBinding((FrameLayout) rootView, imageView7, textView3);
+      return new FragmentOwnerHomeBinding((RelativeLayout) rootView, home, recyclerViewOwnerHome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

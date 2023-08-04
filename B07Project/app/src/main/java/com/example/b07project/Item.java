@@ -18,6 +18,13 @@ public class Item {
         this.id = db.push().getKey();
     }
 
+    public Item(String name, double price, String description, String id) {
+        this.name = name;
+        this.price = price;
+        this.description = description;
+        this.id = id;
+    }
+
     public String getName() {
         return name;
     }

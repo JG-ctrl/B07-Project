@@ -3288,7 +3288,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView7
 id immediateStop
 id included
 id indeterminate
@@ -3299,6 +3298,10 @@ id italic
 id itemDescription
 id itemName
 id itemPrice
+id item_description
+id item_id
+id item_name
+id item_price
 id item_touch_helper_previous_elevation
 id jumpToEnd
 id jumpToStart
@@ -3425,6 +3428,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recycler_view_owner_home
 id recycler_view_shopper_cart
 id recycler_view_shopper_home
 id reverseSawtooth
@@ -3545,7 +3549,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView2
-id textView3
 id textViewErrorMsg
 id textViewPassword
 id textViewPasswordSignup
@@ -3801,11 +3804,11 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout owner_home_preview
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout shopper_cart_preview
-layout shopper_store_preview
 layout support_simple_spinner_dropdown_item
 menu bottom_nav_bar_owner
 menu bottom_nav_bar_shopper
