@@ -1,9 +1,11 @@
 package com.example.b07project;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -50,8 +52,10 @@ public class MyAdapterShopper extends RecyclerView.Adapter<MyAdapterShopper.MyVi
         String ownerUsername = shopperItem.getOwnerUsername();
         String id = shopperItem.getId();
         holder.item_id.setText(id);
+        holder.username = shopperItem.getUsername();
 
         db = FirebaseDatabase.getInstance("https://b07-project-3237a-default-rtdb.firebaseio.com/").getReference("Owners").child(ownerUsername).child("products").child(id);
+
 
         db.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
@@ -68,6 +72,13 @@ public class MyAdapterShopper extends RecyclerView.Adapter<MyAdapterShopper.MyVi
             public void onCancelled(@NonNull DatabaseError databaseError) {
             }
         });
+
+        holder.rmBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                shopperItem.removeFromCart(id, quantity+1, holder.username);
+            }
+        });
     }
 
     @Override
@@ -77,6 +88,8 @@ public class MyAdapterShopper extends RecyclerView.Adapter<MyAdapterShopper.MyVi
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
         TextView item_name, item_total, item_quantity, item_id;
+        String username;
+        Button rmBtn, editBtn;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -84,6 +97,10 @@ public class MyAdapterShopper extends RecyclerView.Adapter<MyAdapterShopper.MyVi
             item_total = itemView.findViewById(R.id.shopper_item_total_text);
             item_quantity = itemView.findViewById(R.id.shopper_item_quantity_text);
             item_id = itemView.findViewById(R.id.shopper_item_id_text);
+
+
+            rmBtn = itemView.findViewById(R.id.shopper_remove_item);
+            editBtn = itemView.findViewById(R.id.shopper_edit_cart);
         }
 
     }
