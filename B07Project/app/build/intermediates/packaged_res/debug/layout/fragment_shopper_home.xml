@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".FragmentShopperHome">
 
+
     <TextView
         android:id="@+id/shopping_cart"
         android:layout_width="match_parent"
@@ -18,5 +19,10 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_view_shopper_home"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="80dp"
+        tools:listitem="@layout/shopper_home_preview" />
 </RelativeLayout>

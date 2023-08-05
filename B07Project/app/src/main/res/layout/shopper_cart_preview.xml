@@ -25,8 +25,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textSize="24dp"
-                android:textStyle="bold"/>
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -42,14 +42,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Item ID:"
-                android:textSize="18dp" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/shopper_item_id_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textSize="18dp" />
+                android:textSize="18sp" />
 
         </LinearLayout>
 
@@ -65,14 +65,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Quantity:"
-                android:textSize="18dp" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/shopper_item_quantity_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textSize="18dp" />
+                android:textSize="18sp" />
 
         </LinearLayout>
 
@@ -88,14 +88,14 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Total:"
-                android:textSize="18dp" />
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/shopper_item_total_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:textSize="18dp" />
+                android:textSize="18sp" />
 
         </LinearLayout>
 
@@ -105,17 +105,11 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/shopper_edit_cart"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Edit"
-                app:iconSize="18dp" />
-
-            <Button
                 android:id="@+id/shopper_remove_item"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
                 android:layout_weight="1"
                 android:text="Remove" />
 

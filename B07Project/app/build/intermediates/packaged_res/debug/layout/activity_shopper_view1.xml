@@ -5,16 +5,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ActivityShopperView1"
-    android:orientation="horizontal">
+    android:backgroundTint="@color/white"
+    android:orientation="horizontal"
+    tools:context="ActivityShopperView1">
 
     <FrameLayout
         android:id="@+id/frame_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="651dp"
         android:backgroundTint="#FFFF"
-        app:layout_anchor="@+id/bottomNavigationView2"
-        app:layout_anchorGravity="center"
         app:layout_constraintBottom_toBottomOf="@+id/bottomNavigationView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -26,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:background="#FFEB3B"
+        android:background="#00FFEB3B"
         app:labelVisibilityMode="labeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -34,7 +33,6 @@
         app:menu="@menu/bottom_nav_bar_shopper">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
-
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

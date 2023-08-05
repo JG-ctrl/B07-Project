@@ -1,162 +1,166 @@
 [
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\layout_shopper_cart_preview.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\shopper_cart_preview.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/layout_fragment_owner_orders.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/layout/fragment_owner_orders.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\drawable_baseline_receipt_24.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\drawable\\baseline_receipt_24.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\drawable\\ic_launcher_background.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/layout_fragment_items_preview.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/layout/fragment_items_preview.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\layout_fragment_shopper_orders.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\fragment_shopper_orders.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\layout_fragment_owner_home.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\fragment_owner_home.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/drawable_shopper_orders.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/drawable/shopper_orders.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\layout_fragment_shopper_cart.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\fragment_shopper_cart.xml"
+        "merged": "com.example.b07project.app-merged_res-34:/layout_activity_shopper_view1.xml.flat",
+        "source": "com.example.b07project.app-main-36:/layout/activity_shopper_view1.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\drawable_shopper_cart.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\drawable\\shopper_cart.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/drawable_baseline_person_24.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/drawable/baseline_person_24.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\menu_bottom_nav_bar_shopper.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\menu\\bottom_nav_bar_shopper.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\layout_fragment_owner_account.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\fragment_owner_account.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/layout_activity_owner_view1.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/layout/activity_owner_view1.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\xml\\backup_rules.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/layout_shopper_home_preview.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/layout/shopper_home_preview.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\layout_fragment_owner_orders.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\fragment_owner_orders.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/layout_fragment_shopper_cart.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/layout/fragment_shopper_cart.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/layout_fragment_shopper_orders.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/layout/fragment_shopper_orders.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\layout_activity_owner_view1.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\activity_owner_view1.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/drawable_shopper_cart.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/drawable/shopper_cart.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\drawable_shopper_orders.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\drawable\\shopper_orders.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/layout_fragment_owner_account.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/layout/fragment_owner_account.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/layout_shopper_items_preview.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/layout/shopper_items_preview.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\menu_bottom_nav_bar_owner.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\menu\\bottom_nav_bar_owner.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/menu_bottom_nav_bar_shopper.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/menu/bottom_nav_bar_shopper.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/layout_shopper_cart_preview.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/layout/shopper_cart_preview.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\layout_activity_shopper_view1.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\activity_shopper_view1.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\layout_fragment_shopper_home.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\fragment_shopper_home.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\layout_owner_home_preview.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\owner_home_preview.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\layout_activity_account_type.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\activity_account_type.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/layout_activity_shopper_view1.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/layout/activity_shopper_view1.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\drawable_baseline_person_24.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\drawable\\baseline_person_24.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/drawable_baseline_store_24.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/drawable/baseline_store_24.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\layout_activity_login_page.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\activity_login_page.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/layout_activity_account_type.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/layout/activity_account_type.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\drawable_shopper_search.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\drawable\\shopper_search.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/layout_fragment_shopper_home.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/layout/fragment_shopper_home.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\xml\\data_extraction_rules.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.b07project.app-merged_res-34:/layout_owner_home_preview.xml.flat",
-        "source": "com.example.b07project.app-main-36:/layout/owner_home_preview.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\layout_fragment_owner_store.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\fragment_owner_store.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/layout_fragment_owner_store.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/layout/fragment_owner_store.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\layout_fragment_shopper_search.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\fragment_shopper_search.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/layout_activity_login_page.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/layout/activity_login_page.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/drawable_baseline_receipt_24.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/drawable/baseline_receipt_24.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/xml_backup_rules.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\drawable_shopper_home.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\drawable\\shopper_home.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/menu_bottom_nav_bar_owner.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/menu/bottom_nav_bar_owner.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/layout_fragment_owner_home.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/layout/fragment_owner_home.xml"
     },
     {
-        "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-merged_res-34:\\drawable_baseline_store_24.xml.flat",
-        "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\drawable\\baseline_store_24.xml"
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/drawable_shopper_home.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/drawable/shopper_home.xml"
+    },
+    {
+        "merged": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-merged_res-34:/layout_owner_home_preview.xml.flat",
+        "source": "/Users/alysa/.gradle/daemon/8.0/com.example.b07project.app-main-36:/layout/owner_home_preview.xml"
     }
 ]

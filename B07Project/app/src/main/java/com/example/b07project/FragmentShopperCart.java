@@ -70,10 +70,4 @@ public class FragmentShopperCart extends Fragment {
             }
         });
     }
-
-    public void writeInvalid() {
-        Toast.makeText(getActivity(), "This order cannot be cancelled.", Toast.LENGTH_SHORT).show();
-    }
-
-
 }

@@ -27,12 +27,10 @@ public class ActivityShopperView1 extends AppCompatActivity {
         Bundle bundle = new Bundle();
         bundle.putString("username", username); // key value I want to share w/ frags
         Fragment shopperHomeFrag = new FragmentShopperHome();
-        Fragment shopperSearchFrag = new FragmentShopperSearch();
         Fragment shopperCartFrag = new FragmentShopperCart();
         Fragment shopperOrderFrag = new FragmentShopperOrders();
         // giving all frags the bundle of info I want to share
         shopperHomeFrag.setArguments(bundle);
-        shopperSearchFrag.setArguments(bundle);
         shopperCartFrag.setArguments(bundle);
         shopperOrderFrag.setArguments(bundle);
 
@@ -46,8 +44,6 @@ public class ActivityShopperView1 extends AppCompatActivity {
 
             if (item.getItemId() == R.id.home)
                 replaceFragment(shopperHomeFrag);
-            else if (item.getItemId() == R.id.search)
-                replaceFragment(shopperSearchFrag);
             else if (item.getItemId() == R.id.orders)
                 replaceFragment(shopperOrderFrag);
             else

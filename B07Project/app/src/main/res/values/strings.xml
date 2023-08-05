@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">B07 Project</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="shopper_home">Home</string>
+    <string name="shopper_home">Stores</string>
     <string name="shopper_search">this is the shopper\'s search page</string>
     <string name="shopper_cart">Shopping Cart</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="shopper_orders">this is a shopper\'s previous orders</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

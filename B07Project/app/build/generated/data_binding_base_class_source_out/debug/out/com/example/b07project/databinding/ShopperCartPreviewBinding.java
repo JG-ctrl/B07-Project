@@ -21,9 +21,6 @@ public final class ShopperCartPreviewBinding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
-  public final Button shopperEditCart;
-
-  @NonNull
   public final TextView shopperItemId;
 
   @NonNull
@@ -47,13 +44,12 @@ public final class ShopperCartPreviewBinding implements ViewBinding {
   @NonNull
   public final Button shopperRemoveItem;
 
-  private ShopperCartPreviewBinding(@NonNull CardView rootView, @NonNull Button shopperEditCart,
-      @NonNull TextView shopperItemId, @NonNull TextView shopperItemIdText,
-      @NonNull TextView shopperItemNameText, @NonNull TextView shopperItemQuantity,
-      @NonNull TextView shopperItemQuantityText, @NonNull TextView shopperItemTotal,
-      @NonNull TextView shopperItemTotalText, @NonNull Button shopperRemoveItem) {
+  private ShopperCartPreviewBinding(@NonNull CardView rootView, @NonNull TextView shopperItemId,
+      @NonNull TextView shopperItemIdText, @NonNull TextView shopperItemNameText,
+      @NonNull TextView shopperItemQuantity, @NonNull TextView shopperItemQuantityText,
+      @NonNull TextView shopperItemTotal, @NonNull TextView shopperItemTotalText,
+      @NonNull Button shopperRemoveItem) {
     this.rootView = rootView;
-    this.shopperEditCart = shopperEditCart;
     this.shopperItemId = shopperItemId;
     this.shopperItemIdText = shopperItemIdText;
     this.shopperItemNameText = shopperItemNameText;
@@ -91,12 +87,6 @@ public final class ShopperCartPreviewBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.shopper_edit_cart;
-      Button shopperEditCart = ViewBindings.findChildViewById(rootView, id);
-      if (shopperEditCart == null) {
-        break missingId;
-      }
-
       id = R.id.shopper_item_id;
       TextView shopperItemId = ViewBindings.findChildViewById(rootView, id);
       if (shopperItemId == null) {
@@ -145,9 +135,9 @@ public final class ShopperCartPreviewBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ShopperCartPreviewBinding((CardView) rootView, shopperEditCart, shopperItemId,
-          shopperItemIdText, shopperItemNameText, shopperItemQuantity, shopperItemQuantityText,
-          shopperItemTotal, shopperItemTotalText, shopperRemoveItem);
+      return new ShopperCartPreviewBinding((CardView) rootView, shopperItemId, shopperItemIdText,
+          shopperItemNameText, shopperItemQuantity, shopperItemQuantityText, shopperItemTotal,
+          shopperItemTotalText, shopperRemoveItem);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

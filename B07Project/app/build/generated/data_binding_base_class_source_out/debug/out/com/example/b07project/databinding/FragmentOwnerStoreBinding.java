@@ -37,18 +37,18 @@ public final class FragmentOwnerStoreBinding implements ViewBinding {
   public final TextView storeHeading;
 
   @NonNull
-  public final TextView test;
+  public final TextView test1;
 
   private FragmentOwnerStoreBinding(@NonNull RelativeLayout rootView, @NonNull Button buttonAddItem,
       @NonNull EditText itemDescription, @NonNull EditText itemName, @NonNull EditText itemPrice,
-      @NonNull TextView storeHeading, @NonNull TextView test) {
+      @NonNull TextView storeHeading, @NonNull TextView test1) {
     this.rootView = rootView;
     this.buttonAddItem = buttonAddItem;
     this.itemDescription = itemDescription;
     this.itemName = itemName;
     this.itemPrice = itemPrice;
     this.storeHeading = storeHeading;
-    this.test = test;
+    this.test1 = test1;
   }
 
   @Override
@@ -108,14 +108,14 @@ public final class FragmentOwnerStoreBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.test;
-      TextView test = ViewBindings.findChildViewById(rootView, id);
-      if (test == null) {
+      id = R.id.test1;
+      TextView test1 = ViewBindings.findChildViewById(rootView, id);
+      if (test1 == null) {
         break missingId;
       }
 
       return new FragmentOwnerStoreBinding((RelativeLayout) rootView, buttonAddItem,
-          itemDescription, itemName, itemPrice, storeHeading, test);
+          itemDescription, itemName, itemPrice, storeHeading, test1);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

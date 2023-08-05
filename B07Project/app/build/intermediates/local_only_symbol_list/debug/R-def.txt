@@ -13,7 +13,6 @@ drawable ic_launcher_foreground
 drawable shopper_cart
 drawable shopper_home
 drawable shopper_orders
-drawable shopper_search
 id bottomNavigationView
 id bottomNavigationView2
 id buttonAddItem
@@ -36,6 +35,10 @@ id itemPrice
 id item_description
 id item_id
 id item_name
+id item_preview_desc_text
+id item_preview_id_text
+id item_preview_name_text
+id item_preview_price_text
 id item_price
 id orders
 id ownerView
@@ -43,14 +46,16 @@ id owner_account
 id owner_home
 id owner_orders
 id owner_shop
+id recycler_view_items_preview
 id recycler_view_owner_home
 id recycler_view_shopper_cart
 id recycler_view_shopper_home
-id search
-id shopper_edit_cart
+id shopper_add_to_cart
+id shopper_item_desc
 id shopper_item_id
 id shopper_item_id_text
 id shopper_item_name_text
+id shopper_item_price
 id shopper_item_quantity
 id shopper_item_quantity_text
 id shopper_item_total
@@ -59,7 +64,9 @@ id shopper_remove_item
 id shopping_cart
 id storeHeading
 id storeName
-id test
+id store_name
+id store_owner
+id test1
 id textView2
 id textViewErrorMsg
 id textViewPassword
@@ -71,6 +78,7 @@ layout activity_account_type
 layout activity_login_page
 layout activity_owner_view1
 layout activity_shopper_view1
+layout fragment_items_preview
 layout fragment_owner_account
 layout fragment_owner_home
 layout fragment_owner_orders
@@ -78,9 +86,10 @@ layout fragment_owner_store
 layout fragment_shopper_cart
 layout fragment_shopper_home
 layout fragment_shopper_orders
-layout fragment_shopper_search
 layout owner_home_preview
 layout shopper_cart_preview
+layout shopper_home_preview
+layout shopper_items_preview
 menu bottom_nav_bar_owner
 menu bottom_nav_bar_shopper
 mipmap ic_launcher
@@ -93,6 +102,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hello_blank_fragment
 string project_id
 string shopper_cart
 string shopper_home

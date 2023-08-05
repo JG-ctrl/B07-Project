@@ -11,6 +11,8 @@ public class Item {
     private double price;
     private String description;
 
+    public Item(){}
+
     public Item(String name, double price, String description) {
         this.name = name;
         this.price = price;

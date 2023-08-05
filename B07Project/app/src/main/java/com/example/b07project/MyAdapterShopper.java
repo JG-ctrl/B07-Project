@@ -100,7 +100,6 @@ public class MyAdapterShopper extends RecyclerView.Adapter<MyAdapterShopper.MyVi
 
 
             rmBtn = itemView.findViewById(R.id.shopper_remove_item);
-            editBtn = itemView.findViewById(R.id.shopper_edit_cart);
         }
 
     }
