@@ -104,7 +104,7 @@ public class OwnerStoreFragment extends Fragment {
         }
         String itemDescription = description.getText().toString();
 
-        Item item = new Item(itemName, itemPrice, itemDescription);
+        Item item = new Item(itemName, itemPrice, itemDescription, username);
 
         if (item.addItem(username)) { // item wasnt added successfully
             Toast.makeText(getActivity(), "Item created successfully", Toast.LENGTH_SHORT).show();

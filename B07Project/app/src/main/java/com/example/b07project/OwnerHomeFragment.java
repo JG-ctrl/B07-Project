@@ -68,7 +68,7 @@ public class OwnerHomeFragment extends Fragment {
                     String descrip = dataSnapshot.child("description").getValue(String.class);
                     String name = dataSnapshot.child("name").getValue(String.class);
                     Double price = dataSnapshot.child("price").getValue(Double.class);
-                    Item item = new Item(name, price, descrip, id);
+                    Item item = new Item(name, price, descrip, id, username);
                     itemsList.add(item);
                 }
                 adapterOwner.notifyDataSetChanged();

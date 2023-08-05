@@ -94,9 +94,6 @@ public class ShopperItem {
         // add item associated with id to database if not already there
         // if already there, increase quantity of item
 
-        ref = FirebaseDatabase.getInstance().getReference("Shoppers");
-        DatabaseReference cart_ref = ref.child(username).child("cart");
-
         ref.child(username).child("cart").child(id).addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {

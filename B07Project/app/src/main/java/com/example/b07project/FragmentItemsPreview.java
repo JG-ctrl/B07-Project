@@ -52,7 +52,7 @@ public class FragmentItemsPreview extends Fragment {
         recyclerView.setHasFixedSize(false);
 
         list = new ArrayList<>();
-        adapterItemsPreview = new AdapterItemsPreview(getContext(), list);
+        adapterItemsPreview = new AdapterItemsPreview(getContext(), list, username);
         recyclerView.setAdapter(adapterItemsPreview);
 
         db.addValueEventListener(new ValueEventListener() {

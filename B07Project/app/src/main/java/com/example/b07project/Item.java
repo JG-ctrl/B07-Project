@@ -11,20 +11,24 @@ public class Item {
     private double price;
     private String description;
 
-    public Item(){}
+    private String ownerUsername;
 
-    public Item(String name, double price, String description) {
+    public Item() {}
+
+    public Item(String name, double price, String description, String ownerUsername) {
         this.name = name;
         this.price = price;
         this.description = description;
         this.id = db.push().getKey();
+        this.ownerUsername = ownerUsername;
     }
 
-    public Item(String name, double price, String description, String id) {
+    public Item(String name, double price, String description, String id, String ownerUsername) {
         this.name = name;
         this.price = price;
         this.description = description;
         this.id = id;
+        this.ownerUsername = ownerUsername;
     }
 
     public String getName() {
@@ -58,5 +62,9 @@ public class Item {
         // remove from database (under Owners, products)
         // ret value for success (T) or fail (F)
         return false;
+    }
+
+    public String getOwnerUsername() {
+        return ownerUsername;
     }
 }
