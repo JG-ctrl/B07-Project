@@ -42,7 +42,7 @@ public class ShopperItem {
         this.id = id;
         this.ownerUsername = ownerUsername;
         this.status = 0;
-        this.username = ownerUsername;
+        this.username = username;
     }
 
     public int getQuantity() {
