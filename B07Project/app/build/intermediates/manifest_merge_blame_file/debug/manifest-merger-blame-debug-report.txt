@@ -77,8 +77,8 @@
 44-->C:\Users\janan\Documents\GitHub\B07-Project\B07Project\app\src\main\AndroidManifest.xml:28:13-37
 45        <activity
 45-->C:\Users\janan\Documents\GitHub\B07-Project\B07Project\app\src\main\AndroidManifest.xml:29:9-37:20
-46            android:name="com.example.b07project.ActivityLoginPage"
-46-->C:\Users\janan\Documents\GitHub\B07-Project\B07Project\app\src\main\AndroidManifest.xml:30:13-46
+46            android:name="com.example.b07project.ActivityLoginPageView"
+46-->C:\Users\janan\Documents\GitHub\B07-Project\B07Project\app\src\main\AndroidManifest.xml:30:13-50
 47            android:exported="true" >
 47-->C:\Users\janan\Documents\GitHub\B07-Project\B07Project\app\src\main\AndroidManifest.xml:31:13-36
 48            <intent-filter>

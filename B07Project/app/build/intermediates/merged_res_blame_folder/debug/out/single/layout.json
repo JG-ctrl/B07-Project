@@ -40,6 +40,10 @@
         "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\fragment_owner_home.xml"
     },
     {
+        "merged": "com.example.b07project.app-mergeDebugResources-33:/layout/activity_login_page.xml",
+        "source": "com.example.b07project.app-main-36:/layout/activity_login_page.xml"
+    },
+    {
         "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-mergeDebugResources-33:\\layout\\fragment_owner_orders.xml",
         "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\fragment_owner_orders.xml"
     },
@@ -50,10 +54,6 @@
     {
         "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-mergeDebugResources-33:\\layout\\activity_shopper_view1.xml",
         "source": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-main-36:\\layout\\activity_shopper_view1.xml"
-    },
-    {
-        "merged": "com.example.b07project.app-mergeDebugResources-33:/layout/owner_home_preview.xml",
-        "source": "com.example.b07project.app-main-36:/layout/owner_home_preview.xml"
     },
     {
         "merged": "C:\\Users\\janan\\.gradle\\daemon\\8.0\\com.example.b07project.app-mergeDebugResources-33:\\layout\\activity_owner_view1.xml",

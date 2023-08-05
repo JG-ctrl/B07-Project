@@ -161,12 +161,12 @@ ADDED from C:\Users\janan\Documents\GitHub\B07-Project\B07Project\app\src\main\A
 		ADDED from C:\Users\janan\Documents\GitHub\B07-Project\B07Project\app\src\main\AndroidManifest.xml:28:13-37
 	android:name
 		ADDED from C:\Users\janan\Documents\GitHub\B07-Project\B07Project\app\src\main\AndroidManifest.xml:27:13-48
-activity#com.example.b07project.ActivityLoginPage
+activity#com.example.b07project.ActivityLoginPageView
 ADDED from C:\Users\janan\Documents\GitHub\B07-Project\B07Project\app\src\main\AndroidManifest.xml:29:9-37:20
 	android:exported
 		ADDED from C:\Users\janan\Documents\GitHub\B07-Project\B07Project\app\src\main\AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from C:\Users\janan\Documents\GitHub\B07-Project\B07Project\app\src\main\AndroidManifest.xml:30:13-46
+		ADDED from C:\Users\janan\Documents\GitHub\B07-Project\B07Project\app\src\main\AndroidManifest.xml:30:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\janan\Documents\GitHub\B07-Project\B07Project\app\src\main\AndroidManifest.xml:32:13-36:29
 action#android.intent.action.MAIN
