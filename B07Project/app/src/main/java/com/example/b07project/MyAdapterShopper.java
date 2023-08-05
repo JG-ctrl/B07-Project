@@ -89,7 +89,7 @@ public class MyAdapterShopper extends RecyclerView.Adapter<MyAdapterShopper.MyVi
     public static class MyViewHolder extends RecyclerView.ViewHolder {
         TextView item_name, item_total, item_quantity, item_id;
         String username;
-        Button rmBtn, editBtn;
+        Button rmBtn;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
