@@ -27,7 +27,7 @@
             android:name=".ActivityAccountType"
             android:exported="false" />
         <activity
-            android:name=".ActivityLoginPage"
+            android:name=".ActivityLoginPageView"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

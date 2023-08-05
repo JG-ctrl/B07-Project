@@ -43,7 +43,7 @@
             android:name="com.example.b07project.ActivityAccountType"
             android:exported="false" />
         <activity
-            android:name="com.example.b07project.ActivityLoginPage"
+            android:name="com.example.b07project.ActivityLoginPageView"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
