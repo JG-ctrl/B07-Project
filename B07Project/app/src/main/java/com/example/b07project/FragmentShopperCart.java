@@ -11,6 +11,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
@@ -28,6 +30,7 @@ public class FragmentShopperCart extends Fragment {
     ArrayList<ShopperItem> list;
     DatabaseReference db;
     MyAdapterShopper myAdapterShopper;
+    Button btnOrder;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -46,6 +49,7 @@ public class FragmentShopperCart extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         recyclerView.setHasFixedSize(false);
 
+        btnOrder = view.findViewById(R.id.btnPlaceOrder);
 
         list = new ArrayList<>();
         myAdapterShopper = new MyAdapterShopper(getContext(), list);
@@ -69,5 +73,70 @@ public class FragmentShopperCart extends Fragment {
 
             }
         });
+
+        btnOrder.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                placeOrder();
+            }
+        });
+    }
+
+    private void placeOrder() { //THIS ONE WAS NOT FUN TO IMPLEMENT :(
+        DatabaseReference ownerDB = FirebaseDatabase.getInstance("https://b07-project-3237a-default-rtdb.firebaseio.com/").getReference("Owners");
+        DatabaseReference shopperDB = FirebaseDatabase.getInstance("https://b07-project-3237a-default-rtdb.firebaseio.com/").getReference("Shoppers"); //create two seperate references for ease
+
+        db.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                for (DataSnapshot dataSnapshot : snapshot.getChildren()) { //NEED TO ITERATE THROUGH EVERY ITEM IN CURRENT CART
+                    ShopperItem shopperItem = dataSnapshot.getValue(ShopperItem.class);
+
+
+                    ownerDB.child(shopperItem.getOwnerUsername()).child("orders").child(shopperItem.getUsername()).child(shopperItem.getId()).addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(@NonNull DataSnapshot snapshot) {
+                            if(snapshot.exists()){ //HAVE TO CHECK IF ITEM IS ALR IN CURRENT CART
+                                int curVal = snapshot.child("quantity").getValue(Integer.class);
+                                ownerDB.child(shopperItem.getOwnerUsername()).child("orders").child(shopperItem.getUsername()).child(shopperItem.getId()).child("quantity").setValue(curVal + shopperItem.getQuantity());
+                            }
+                            else { //IF NOT ADD IT
+                                ownerDB.child(shopperItem.getOwnerUsername()).child("orders").child(shopperItem.getUsername()).child(shopperItem.getId()).setValue(shopperItem);
+                            }
+                        }
+                        @Override
+                        public void onCancelled(@NonNull DatabaseError error) {
+                        }
+                    });
+
+
+                    shopperDB.child(shopperItem.getUsername()).child("orders").child(shopperItem.getId()).addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(@NonNull DataSnapshot snapshot) {
+                            if(snapshot.exists()){
+                                int curVal = snapshot.child("quantity").getValue(Integer.class);
+                                shopperDB.child(shopperItem.getUsername()).child("orders").child(shopperItem.getId()).child("quantity").setValue(curVal + shopperItem.getQuantity());
+                            }
+                            else{
+                                shopperDB.child(shopperItem.getUsername()).child("orders").child(shopperItem.getId()).setValue(shopperItem);
+                            }
+                         }
+                        @Override
+                        public void onCancelled(@NonNull DatabaseError error) {
+                        }
+                    });
+
+
+                    db.child(shopperItem.getId()).removeValue();
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+                Toast.makeText(getContext(), "Order failed.", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+
     }
 }
