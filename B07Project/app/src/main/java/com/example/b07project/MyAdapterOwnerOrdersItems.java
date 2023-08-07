@@ -66,6 +66,8 @@ public class MyAdapterOwnerOrdersItems extends RecyclerView.Adapter<MyAdapterOwn
             public void onClick(View view) {
                 Log.d("", "onClick: Completing this thing");
                 item.setStatus(1, item.getUsername(), item.getId(), item.getOwnerUsername());
+
+                FirebaseDatabase.getInstance("https://b07-project-3237a-default-rtdb.firebaseio.com/").getReference("Shoppers").child(item.getUsername()).child("orders").child(item.getId()).child("status").setValue(1);
             }
         });
     }
