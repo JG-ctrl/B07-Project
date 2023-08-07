@@ -40,12 +40,9 @@ public class AdapterShopperOrders extends RecyclerView.Adapter<AdapterShopperOrd
 
         int status = item.getStatus(); //set status
         if(status == 0) {
-            holder.item_status.setText("Not Started");
+            holder.item_status.setText("Pending");
         }
         else if (status == 1) {
-            holder.item_status.setText("In Progress");
-        }
-        else {
             holder.item_status.setText("Ready For Pickup!");
         }
 
