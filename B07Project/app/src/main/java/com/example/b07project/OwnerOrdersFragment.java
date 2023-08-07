@@ -101,6 +101,8 @@ public class OwnerOrdersFragment extends Fragment {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 int i = 0;
+                orders.clear();
+                names.clear();
                 Log.d("OwnerOrderTest", "onDataChange: orders");
                 for (DataSnapshot dataSnapshot: snapshot.getChildren()) {
 

@@ -3,26 +3,71 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:orientation="vertical"
     android:visibility="visible"
     tools:visibility="visible">
 
-    <TextView
-        android:id="@+id/owner_order_item_name"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:maxLines="1" />
+        android:visibility="visible"
+        tools:visibility="visible">
 
-    <TextView
-        android:id="@+id/owner_order_item_amount"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:maxLines="1" />
+        <TextView
+            android:id="@+id/owner_order_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/owner_order_item_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:textAlignment="textEnd"
+            android:textSize="20sp" />
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/owner_order_item_status"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:maxLines="1"
-        android:textAlignment="textEnd" />
+        android:textAlignment="textEnd"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/owner_order_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mark Complete" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider"
+            android:visibility="invisible" />
+    </LinearLayout>
+
 </LinearLayout>

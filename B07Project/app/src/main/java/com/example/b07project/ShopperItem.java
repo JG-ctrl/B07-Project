@@ -28,6 +28,7 @@ public class ShopperItem {
     private int quantity;
     private int status; // 0 for not yet ordered (i.e. in cart), 1 for ordered but not read, 2 for ready
     Button btn;
+    static private DatabaseReference db = FirebaseDatabase.getInstance("https://b07-project-3237a-default-rtdb.firebaseio.com/").getReference();
 
     static private DatabaseReference ref = FirebaseDatabase.getInstance("https://b07-project-3237a-default-rtdb.firebaseio.com/").getReference("Shoppers");
 
@@ -63,8 +64,11 @@ public class ShopperItem {
 
     public String getUsername() { return username; }
 
-    public void setStatus(int status) {
+    public void setStatus(int status, String username, String id, String ownerUsername) {
         this.status = status;
+        ref = FirebaseDatabase.getInstance().getReference("Shoppers");
+        ref.child(username).child("orders").child(id).child("status");//.setValue(status);
+        db.child("Owners").child(ownerUsername).child("orders").child(username).child(id).child("status").setValue(status);
     }
 
     public void removeFromCart(String id, int quantity, String username) {

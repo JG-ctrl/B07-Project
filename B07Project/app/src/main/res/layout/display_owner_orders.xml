@@ -3,7 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_margin="10dp"
+    android:clickable="true"
     android:padding="3dp"
     app:cardCornerRadius="10dp"
     app:cardElevation="10dp"
@@ -44,6 +46,7 @@
             android:id="@+id/owner_order_items_cart"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="visible" />
+            android:visibility="visible"
+            tools:listitem="@layout/display_owner_orders_item"/>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

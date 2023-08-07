@@ -69,6 +69,7 @@ public class MyAdapterOwnerOrders extends RecyclerView.Adapter<MyAdapterOwnerOrd
             super(itemView);
             itemsRecycler = itemView.findViewById(R.id.owner_order_items_cart);
             name = itemView.findViewById(R.id.owner_order_shopper_name);
+
         }
     }
 }

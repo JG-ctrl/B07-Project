@@ -5,6 +5,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -38,6 +39,13 @@ public class MyAdapterOwnerOrdersItems extends RecyclerView.Adapter<MyAdapterOwn
         String status = "Complete";
         if(item.getStatus() == 0) status = "Pending";
         holder.status.setText(status);
+        holder.btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d("", "onClick: Completing this thing");
+                item.setStatus(1, item.getUsername(), item.getId(), item.getOwnerUsername());
+            }
+        });
     }
 
     @Override
@@ -47,6 +55,7 @@ public class MyAdapterOwnerOrdersItems extends RecyclerView.Adapter<MyAdapterOwn
 
     public static class OwnerOrdersViewHolder extends RecyclerView.ViewHolder {
         TextView status, quantity, name;
+        Button btn;
 
 
         public OwnerOrdersViewHolder(@NonNull View itemView) {
@@ -54,6 +63,7 @@ public class MyAdapterOwnerOrdersItems extends RecyclerView.Adapter<MyAdapterOwn
             quantity = itemView.findViewById(R.id.owner_order_item_amount);
             name = itemView.findViewById(R.id.owner_order_item_name);
             status = itemView.findViewById(R.id.owner_order_item_status);
+            btn = itemView.findViewById(R.id.owner_order_button);
         }
     }
 }
