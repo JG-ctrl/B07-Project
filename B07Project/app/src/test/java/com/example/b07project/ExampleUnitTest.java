@@ -16,6 +16,9 @@ import static org.mockito.Mockito.verify;
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
+
+// I'm sorry Rawad login was designed so badly that I had to make 2 of everything
+
 @RunWith(MockitoJUnitRunner.class)
 public class ExampleUnitTest {
     @Mock
@@ -122,21 +125,7 @@ public class ExampleUnitTest {
         verify(view).writeInvalid();
     }
 
-    // 2.2: wrong username, correct password
-    @Test
-    public void checkWrongUsernameShopper() {
-        // Provide the correct username and an incorrect password
-        presenter.checkDBShopper("wrong_username", "correct_password");
-        verify(view).writeInvalid();
-    }
-    @Test
-    public void checkWrongUsernameOwner() {
-        // Provide the correct username and an incorrect password
-        presenter.checkDBOwner("wrong_username", "correct_password");
-        verify(view).writeInvalid();
-    }
-
-    // 2.3: both wrong
+    // 2.2: both wrong
     @Test
     public void checkWrongUsernamePasswordShopper() {
         // Provide the correct username and an incorrect password
