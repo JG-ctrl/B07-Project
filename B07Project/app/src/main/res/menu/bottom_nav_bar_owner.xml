@@ -9,7 +9,7 @@
     <item
         android:id="@+id/owner_account"
         android:icon="@drawable/baseline_person_24"
-        android:title="Orders" />
+        android:title="Account" />
     <item
         android:id="@+id/owner_shop"
         android:icon="@drawable/baseline_store_24"
@@ -18,6 +18,6 @@
     <item
         android:id="@+id/owner_orders"
         android:icon="@drawable/baseline_receipt_24"
-        android:title="Account" />
+        android:title="Orders" />
 
 </menu>
