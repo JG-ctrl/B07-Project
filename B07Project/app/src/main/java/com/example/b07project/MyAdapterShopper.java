@@ -77,6 +77,7 @@ public class MyAdapterShopper extends RecyclerView.Adapter<MyAdapterShopper.MyVi
             @Override
             public void onClick(View view) {
                 shopperItem.removeFromCart(id, quantity+1, holder.username);
+                Toast.makeText(context, "Item successfully removed! Refresh to see your updated cart.", Toast.LENGTH_SHORT).show();
             }
         });
     }
