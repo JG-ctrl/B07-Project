@@ -79,10 +79,6 @@ public class FragmentShopperCart extends Fragment {
             @Override
             public void onClick(View v) {
                 placeOrder();
-
-                // Create an Intent to open the new activity
-                Intent intent = new Intent(getContext(), ActivityShopperView1.class); 
-                startActivity(intent);
             }
         });
 
