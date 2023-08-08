@@ -83,7 +83,6 @@ public class FragmentShopperCart extends Fragment {
                 // Create an Intent to open the new activity
                 Intent intent = new Intent(getContext(), ActivityShopperView1.class); 
                 startActivity(intent);
-                Toast.makeText(getContext(), "Order placed!", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -135,6 +134,7 @@ public class FragmentShopperCart extends Fragment {
 
 
                     db.child(shopperItem.getId()).removeValue();
+                    Toast.makeText(getContext(), "Order placed!", Toast.LENGTH_SHORT).show();
                 }
             }
 
