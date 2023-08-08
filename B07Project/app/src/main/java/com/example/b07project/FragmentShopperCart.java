@@ -81,7 +81,7 @@ public class FragmentShopperCart extends Fragment {
                 placeOrder();
 
                 // Create an Intent to open the new activity
-                Intent intent = new Intent(getContext(), ActivityShopperView1.class); // Replace with the name of your new activity class
+                Intent intent = new Intent(getContext(), ActivityShopperView1.class); 
                 startActivity(intent);
                 Toast.makeText(getContext(), "Order placed!", Toast.LENGTH_SHORT).show();
             }
