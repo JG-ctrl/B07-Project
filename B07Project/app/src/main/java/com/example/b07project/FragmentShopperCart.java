@@ -1,5 +1,6 @@
 package com.example.b07project;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -78,8 +79,14 @@ public class FragmentShopperCart extends Fragment {
             @Override
             public void onClick(View v) {
                 placeOrder();
+
+                // Create an Intent to open the new activity
+                Intent intent = new Intent(getContext(), ActivityShopperView1.class); // Replace with the name of your new activity class
+                startActivity(intent);
+                Toast.makeText(getContext(), "Order placed!", Toast.LENGTH_SHORT).show();
             }
         });
+
     }
 
     private void placeOrder() { //THIS ONE WAS NOT FUN TO IMPLEMENT :(
