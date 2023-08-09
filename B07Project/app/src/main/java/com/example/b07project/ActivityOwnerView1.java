@@ -33,11 +33,9 @@ public class ActivityOwnerView1 extends AppCompatActivity {
         Fragment ownerStoreFrag = new OwnerStoreFragment();
         Fragment ownerHomeFrag = new OwnerHomeFragment();
         Fragment ownerOrdersFrag = new OwnerOrdersFragment();
-        Fragment ownerAccountFrag = new OwnerAccountFragment();
         // giving all frags the bundle of info I want to share
         ownerStoreFrag.setArguments(bundle);
         ownerHomeFrag.setArguments(bundle);
-        ownerAccountFrag.setArguments(bundle);
         ownerOrdersFrag.setArguments(bundle);
 
 
@@ -55,8 +53,6 @@ public class ActivityOwnerView1 extends AppCompatActivity {
                 replaceFragment(ownerStoreFrag);
             else if (item.getItemId() == R.id.owner_orders)
                 replaceFragment(ownerOrdersFrag);
-            else if (item.getItemId() == R.id.owner_account)
-                replaceFragment(ownerAccountFrag);
             else
                 replaceFragment(ownerHomeFrag);
 
